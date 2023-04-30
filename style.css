@@ -48,12 +48,12 @@ a.nav-link {
     color: #4b3832;
 }
 .jumbotron {
-    background-color: #BE9B7B;
-    background-image: url("./images/Coffee-Beans-Transparent.png"); /*image quality is shoddy find out about file formats and sort it*/
+    background-color: #BE9B7B; 
     background-repeat: no-repeat;
     background-size: 100% 50% ;
     background-position: left bottom, right bottom;
-    height: 500px;
+    height: 400px;
+    width: 100%;
 }
 
 .btn.btn-lg {
@@ -61,13 +61,18 @@ a.nav-link {
     
 }
 a.btn.btn-lg {
-    position:relative;
+    position:absolute;
     border: solid 2px #4b3832;
-    margin: 100px; 
+    margin: 50px; 
     
 }
 
 p.beans{
     color: black;
     padding-top:10px;
+}
+
+.carousel-item{
+    height: 32rem;
+    background-color: #777;
 }
