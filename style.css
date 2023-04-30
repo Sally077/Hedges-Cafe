@@ -47,3 +47,27 @@ a.nav-link {
 .fa-bag-shopping {
     color: #4b3832;
 }
+.jumbotron {
+    background-color: #BE9B7B;
+    background-image: url("./images/Coffee-Beans-Transparent.png"); /*image quality is shoddy find out about file formats and sort it*/
+    background-repeat: no-repeat;
+    background-size: 100% 50% ;
+    background-position: left bottom, right bottom;
+    height: 500px;
+}
+
+.btn.btn-lg {
+    background-color: #BE9B7B ;
+    
+}
+a.btn.btn-lg {
+    position:relative;
+    border: solid 2px #4b3832;
+    margin: 100px; 
+    
+}
+
+p.beans{
+    color: black;
+    padding-top:10px;
+}
