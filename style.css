@@ -1,16 +1,28 @@
+/* Import Google font - Poppins */
+@import url(https://fonts.googleapis.com/css2?family=Satisfy&display=swap);
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.main {
+    display: flex;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #fff4e6;
+}
 #navbarSupportedContent {
     background-color: #4B3832; 
 }
 
+header{
+    background-color: #fff4e6;
+}
 a.nav-link {
     color: white;
-    font-size: 25px;
-
-    
-   
+    font-size: 25px; 
 }
-
-
 .nav-link {
     font-family: 'Satisfy', cursive;
     
@@ -60,10 +72,10 @@ a.nav-link {
     background-color: #BE9B7B ;
     
 }
-a.btn.btn-lg {
+a.btn .btn-lg {
     position:absolute;
-    border: solid 2px #4b3832;
-    margin: 50px; 
+    border: solid 2px #fff4e6;
+    margin: 100px; 
     
 }
 
@@ -72,7 +84,60 @@ p.beans{
     padding-top:10px;
 }
 
-.carousel-item{
+.carousel-item {
     height: 32rem;
-    background-color: #777;
+    background-color: #fff4e6;
+    color: rgb(44, 42, 42);
+    position: relative;
+   
+}   
+
+.container-carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 100px;
+    padding-bottom: 50px; 
+
+}
+
+a.btn {
+    border: solid 2px #4b3832;
+    margin: 50px;   
+}
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+}
+.wrapper i {
+    top: 50%;
+    color: #4b3832;
+    font-size: 200px;
+    text-align: center;
+    line-height: 200px;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%)
+}
+.wrapper i:first-child {
+    left: -110px;
+}
+.wrapper i:last-child {
+    right: -110px;
+}
+.wrapper .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.carousel img {
+    height: 340px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: calc(100% / 3);
+}
+.carousel img:first-child {
+    margin-left:0px;
+
 }
