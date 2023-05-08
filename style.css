@@ -9,7 +9,7 @@
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 75vh;
     background: #fff4e6;
 }
 #navbarSupportedContent {
@@ -130,6 +130,13 @@ a.btn {
     cursor: pointer;
     overflow: hidden;
     white-space: nowrap;
+}
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+.carousel.dragging img {
+    pointer-events: none;
 }
 .carousel img {
     height: 340px;
