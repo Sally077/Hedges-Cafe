@@ -141,3 +141,13 @@ a.btn {
     margin-left:0px;
 
 }
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: cal(100% / 2);
+    }
+}
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}
